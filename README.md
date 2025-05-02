@@ -14,4 +14,6 @@ Se incorpora al segundo miembro del grupo de trabajo.
 Nuestro siguiente paso será implementar las funciones matemáticas básicas para nuestra calculadora:sumar, restar, multiplicar, dividir, módulo.  
 
 Isai:
- -integrante: isai, se unio al proyecto
+
+Se incorpora el tercer integrante del grupo de trabajo: Isai
+Listo para comenzar con el desarrollo de funciones en JavaScript.
