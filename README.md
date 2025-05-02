@@ -12,3 +12,6 @@ Jorge:
 
 Se incorpora al segundo miembro del grupo de trabajo.
 Nuestro siguiente paso será implementar las funciones matemáticas básicas para nuestra calculadora:sumar, restar, multiplicar, dividir, módulo.  
+
+Isai:
+ -integrante: isai, se unio al proyecto
