@@ -23,5 +23,5 @@ window.realizarOperacion = function(tipo) {
       break;
   }
 
-  document.getElementById("resultado").innerText = Resultado: ${resultado};
+  document.getElementById("resultado").innerText = `Resultado: ${resultado}`;
 }
