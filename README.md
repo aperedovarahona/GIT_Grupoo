@@ -1,38 +1,42 @@
 # GIT_Grupoo# GIT_Grupoo
 
-## Introducción
+# Proyecto Git - Equipo Tangamandapio
 
-Alejandro:
+## Integrantes:
+- Alejandro
+- Jorge
+- Isai
 
-- Se dio inicio al proyecto.
-  Este sera una pequeña calculadora, en la rama principal se alojaran el `"index.html"` y `"style.css"`
+## GitFlow utilizado
+Flujo basado en **GitHub Flow** con ramas protegidas:
+- `main`: Rama principal (protegida, solo merge via PR).
+- `feature/nombre`: Ramas para funcionalidades nuevas.
+- Se requieren **2 aprobaciones** antes de mergear a `main`.
 
-- Por otra parte se busca agregar operaciones matematicas desde JavaScript, siendo asi que cada operacion se alojara en una rama diferente para trabajar en git.
+### Bitácora del proyecto:
+- **¿Les sirvió este GitFlow?**  
+  Sí, pero en un proyecto más grande necesitaríamos ramas `develop` y `hotfix`.  
+- **Problemas/Conflictos:**  
+  - Conflicto en `script.js` (Jorge e Isai modificaron la misma función).  
+  - Causa: Falta de comunicación en tareas paralelas.  
 
-Jorge:
+## Buenas y malas prácticas por integrante:
 
-Se incorpora al segundo miembro del grupo de trabajo.
-Nuestro siguiente paso será implementar las funciones matemáticas básicas para nuestra calculadora:sumar, restar, multiplicar, dividir, módulo.
+### Alejandro (documentado por Jorge):
+- **Buenas prácticas:**  
+  - Commits descriptivos (ej: `feat: add login button`).  
+  - Siempre crea ramas desde `main` actualizada.  
+- **Malas prácticas:**  
+  - A veces commitea archivos sin probar (`git commit -am "quick fix"`).  
 
-Isai:
+### Isai (documentado por Alejandro):
+*(Jorge: Pídele a Alejandro que complete esta sección)*  
 
-Se incorpora el tercer integrante del grupo de trabajo: Isai
-Listo para comenzar con el desarrollo de funciones en JavaScript.
-
-## Desarrollo
-
-Alejandro:
-
-Dio la primera parte de `HTML` y `CSS`.
-
-- Cada "lenguaje" de programacion tendra su propia rama de desarrollo, para posteriormente ser fusionadas en el `origin/main`.
-
-Isai:
-
-- se agregaron las funciones básicas de la calculadora en javascript
-- Organización del código en módulos separados (suma.js, resta.js, multiplicacion.js, division.js)
-- organizando los archivos en una carpeta js/ para mejor organización
-
-## Conclusion
-
-- Por parte de todos se dio por finalizado el proyecto con la fusion de las ramas de trabajo.
+### Jorge (documentado por Isai):
+*(Jorge: Pídele a Isai que complete esta sección)*  
+- **Mañas prácticas** 
+  - Genera Ramas inecesarias varias veces
+## Git Hooks / Alias usados:
+- Alias:  
+  ```bash
+  git config --global alias.lg "log --graph --abbrev-commit --pretty=format:'%C(yellow)%h%Creset -%C(red)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'"
