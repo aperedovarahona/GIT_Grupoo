@@ -34,7 +34,7 @@ Flujo basado en **GitHub Flow** con ramas protegidas:
 
 ### Jorge (documentado por Isai):
 *(Jorge: Pídele a Isai que complete esta sección)*  
-- **Mañas prácticas** 
+- **Malas prácticas** 
   - Genera Ramas inecesarias varias veces
 ## Git Hooks / Alias usados:
 - Alias:  
